@@ -76,7 +76,7 @@ const Contact = () => {
               <TableRow>
                 <TableCell>
                   <WifiCalling3Icon sx={{ color: "green", pt: 1 }} />
-                  help@myrest.com
+                  1800-006-1800
                 </TableCell>
               </TableRow>
             </TableBody>

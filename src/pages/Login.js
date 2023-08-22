@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-// import "../styles/Login.css";
-
+import "../styles/Login.css";
 const Login = () => {
   const navigate = useNavigate();
 
@@ -31,6 +30,7 @@ const Login = () => {
     <>
       <div className="form__container d-flex felx-column align-items-center justify-content-center">
         <form>
+          <h2>Welcome to My Resturant</h2>
           <h4 className="form__heading">User Management System </h4>
           <hr />
           <div className="mb-3">
@@ -60,7 +60,7 @@ const Login = () => {
           </div>
           <div className="form__signupLink mb-3">
             <p>
-              Don't Have An Account? <Link to="/">Signup !</Link>
+              Don't Have An Account? <Link to="/signup">Signup !</Link>
             </p>
           </div>
           <button type="submit" className="form__button" onClick={handleSubmit}>

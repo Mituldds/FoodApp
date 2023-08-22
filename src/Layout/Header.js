@@ -34,7 +34,7 @@ const Header = () => {
       <Divider></Divider>
       <ul className="mobile_navigation">
         <li>
-          <Link to={"/"}>Home</Link>
+          <Link to={"/home"}>Home</Link>
         </li>
         <li>
           <Link to={"/menu"}>Menu</Link>
@@ -44,6 +44,9 @@ const Header = () => {
         </li>
         <li>
           <Link to={"/contact"}>Contact</Link>
+        </li>
+        <li>
+          <Link to={"/"}>Login</Link>
         </li>
       </ul>
     </Box>
@@ -74,7 +77,7 @@ const Header = () => {
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation_menu">
                 <li>
-                  <Link to={"/"}>Home</Link>
+                  <Link to={"/home"}>Home</Link>
                 </li>
                 <li>
                   <Link to={"/menu"}>Menu</Link>
@@ -84,6 +87,9 @@ const Header = () => {
                 </li>
                 <li>
                   <Link to={"/contact"}>Contact</Link>
+                </li>
+                <li>
+                  <Link to={"/"}>Login</Link>
                 </li>
               </ul>
             </Box>

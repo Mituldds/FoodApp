@@ -10,7 +10,7 @@ body {
 
 .form__container {
   min-height: 100vh;
-  background: linear-gradient(90deg, #00a2ff 0%, #92e5fe 100%);
+  background: linear-gradient(90deg, #078051 0%, #92e5fe 100%);
 }
 .form__container form {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
@@ -20,6 +20,7 @@ body {
 .form__heading {
   font-family: "Dancing Script", cursive;
   margin-bottom: 10px;
+  text-align: center;
 }
 .form__button {
   width: 100%;
